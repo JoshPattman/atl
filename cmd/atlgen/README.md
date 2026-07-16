@@ -26,8 +26,9 @@ Use "atlgen [command] --help" for more information about a command.
 
 ## Installation
 Either:
-    - Download this repo, `cd` into `cmd/atlgen`, then `$ make install`
-    - `$ go install github.com/JoshPattman/atl/cmd/atlgen@latest`
+    - **Preffered**: Download a `.deb` from the releases page and `$ sudo apt install <name>.deb`
+    - Or: Download this repo, `cd` into `cmd/atlgen`, then `$ make install`
+    - Or: `$ go install github.com/JoshPattman/atl/cmd/atlgen@latest`
 
 ## Usage
 The command is well documented - run `$ atlgen help` for usage.
