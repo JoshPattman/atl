@@ -10,3 +10,6 @@ local-release:
 
 local-release-install: local-release
 	sudo dpkg -i dist/*_linux_amd64.deb
+
+publish-release:
+	goreleaser release --clean
